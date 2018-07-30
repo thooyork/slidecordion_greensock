@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,200,300,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/custom.css" type="text/css"/>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/custom.js"></script>
+    <title>thooyorks slidecordion (greensock version)</title>
+</head>
+<body>
+        <div class="forkme">
+            <a href="https://github.com/thooyork/slidecordion_greensock"><img src="assets/forkme.png" width="100"/></a>
+        </div>
+        <div class="headlinewrapper">
+            <h1>slideCordion Greensock version</h1>
+            <h2>fully responsive horizontally two state accordion slider beased on greensock animation GSAP.</h2>
+        </div>
+
+    <div class="sc-container">
+        <!--<div class="bg"></div>-->
+        <div class="sc-item" data-bg="assets/car.jpg">
+            <div class="label">AngularJS</div>
+            <div class="initStage">
+                <h2>AngularJS</h2>
+                <div class="text">Option for<br/>enterprise-based<br/>applications</div>
+                <div class="plus"></div>
+            </div>
+            <div class="openStage">
+                <h2>Angular JS</h2>
+                <div class="text">
+                    <h3>Developed by Google</h3>
+                    <p>
+                        Angular.js is often referred to as an MVW (Model-View-Whatever) framework and among the top benefits, for startups and mid-sized companies, people name: quick code production, easy testing of any app part and two-way data binding (changes in the backend are immediately reflected on the UI). Since release its ecosystem has gone beyond imagination. As for now, it is reasonably called the most used JS framework for SPAs (Single-Page Applications) development and it boasts the largest community of developers.
+                    </p>
+                </div>
+                <a href="javascript:void(0)" class="close"></a>
+            </div>
+        </div>
+        <div class="sc-item" data-bg="assets/face.jpg">
+            <div class="label">ReactJS</div>
+            <div class="initStage">
+                    <h2>ReactJS</h2>
+                    <div class="text">App development<br/>straightforward and<br/>easy-to-understand</div>
+                    <div class="plus"></div>
+            </div>
+            <div class="openStage">
+                <h2>ReactJS</h2>
+                <div class="text">
+                    <h3>Developed by Facebook</h3>
+                    <p>
+                        It is rightly considered the fastest growing JS framework: as of today, there are about 1,000 contributors on Github. In MVC (Model-View-Controller) pattern React.js acts as “V” and can be smoothly integrated with any architecture. Due to the usage of virtual DOM it provides a great performance boost, comparing to Angular 1.x. In addition to that, React components can be created and re-used among applications or even transferred for public use.
+                    </p>
+                </div>
+                <a href="javascript:void(0)" class="close"></a></div>
+        </div>
+        <div class="sc-item">
+            <div class="label">Vue.js</div>
+            <div class="initStage">
+                    <h2>Vue.js</h2>
+                    <div class="text">Quick development<br/>of cross-platform<br/>solutions</div>
+                    <div class="plus"></div>
+            </div>
+            <div class="openStage">
+                <h2>Vue.js</h2>
+                <div class="text">
+                    <h3>Developed by ‎Evan You</h3>
+                    <p>
+                        Vue.js is a better choice for quick development of cross-platform solutions. It can become a firm basis for high-end single page applications (SPAs) and beneficial solution to those cases, when performance is put ahead of good code organization or app structure.
+                    </p>
+                </div>
+                <a href="javascript:void(0)" class="close"></a>
+            </div>
+        </div>
+        <div class="sc-item">
+            <div class="label">Ember.js</div>
+            <div class="initStage">
+                    <h2>Ember.js</h2>
+                    <div class="text">Build complex<br/>feature-rich<br/>web applications</div>
+                    <div class="plus"></div>
+            </div>
+            <div class="openStage">
+                <h2>Ember.js</h2>
+                <div class="text">
+                    <h3>Developed by Yehuda Katz and the ember core team</h3>
+                    <p>Emberjs is commonly usable for complex feature-rich web applications and website. Among the top users are Chipotle, Blue Apron, Nordstrom, Kickstarter, LinkedIn, Netflix and many others. Moreover it has an easier learning curve and there are oceans of tutorials and guide available online.</p>
+                </div>
+                <a href="javascript:void(0)" class="close"></a>
+            </div>
+        </div>
+        <div class="sc-item">
+            <div class="label">Meteor.js</div>
+            <div class="initStage">
+                    <h2>Meteor.js</h2>
+                    <div class="text">Real-time<br/>application development<br/>for business</div>
+                    <div class="plus"></div>
+            </div>
+            <div class="openStage">
+                <h2>Meteor.js</h2>
+                <div class="text">
+                    <h3>Developed by the Meteor Development Group</h3>
+                    <p>This full-stack platform enables fast development of end-to-end web and mobile applications in pure JavaScript. Due to modular structure all the packages and libraries can be used at pace. In terms of performance, all the changes in the database are immediately transmitted to the UI and in conversely with no evident time losses caused by different languages or server response time.</p>  
+                </div>
+                <a href="javascript:void(0)" class="close"></a>
+            </div>
+        </div>
+
+    </div>
+</body>
+    <script>
+        app.slidecordion.init();
+    </script>
+</html>
