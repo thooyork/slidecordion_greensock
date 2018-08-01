@@ -162,6 +162,11 @@ app.slidecordion = {
             }
         });
 
+        $('.openStage').on('click', function(e){
+            e.stopPropagation();
+            //alert(e.target);
+        });
+
         $(window).resize(function(){
             clearTimeout(this.to);
             this.to = setTimeout(function(){
