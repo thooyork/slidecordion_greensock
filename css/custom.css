@@ -307,6 +307,8 @@
     margin-top:-55px;
     color:#FFF;
     z-index:0;
+    transform:rotate(0deg);
+    transition: transform .2s;
   }
 
   .sc-container.mobile .sc-item .initStage .plus:after{
@@ -359,9 +361,9 @@
   }
 
   .sc-container.mobile .sc-item.active .initStage .plus{
-      transition:.3s;
       content: url(../assets/plus.svg);
       width:40px;
       height:40px;
       transform:rotate(45deg);
+      transition: transform 0.3s;
   }
